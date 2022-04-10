@@ -18,24 +18,23 @@ def to_celsius(temperatures):
     ...
 
 
-# hottest_days(temperatures, threshhold)
+# hottest_days(temperatures, threshold)
 # - Accepts a list of temperatures
-# - Accepts a threshhold temperature
+# - Accepts a threshold temperature
 # - Returns a list of temperatures
-#   that exceed the threshhold
-def hottest_days(temperatures, threshhold):
+#   that exceed the threshold
+def hottest_days(temperatures, threshold):
     # Your code here
     ...
 
 
 # log_hottest_days(temperatures, threshhold)
 # - Accepts a list of temperatures
-#   IN DEGREES FAHRENHEINT
-# - Accepts a threshhold temperature
-#   IN DEGREES FAHRENHEINT
-# - Logs temperatures that exceed the
-#   threshhold to the console
-#   IN DEGREES CELSIUS
+#   IN DEGREES FAHRENHEIT
+# - Accepts a threshold temperature
+#   IN DEGREES FAHRENHEIT
+# - Prints temperatures that exceed the
+#   threshold IN DEGREES CELSIUS
 # hint: you can combine
 #       all previous functions
 def print_hottest_days(temperatures, threshhold):
